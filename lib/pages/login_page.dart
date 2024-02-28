@@ -26,16 +26,16 @@ class _LoginPageState extends State<LoginPage> {
                     const Text(
                       'Location Changer',
                       style: TextStyle(
-                          fontSize: 40,
-                          fontWeight: FontWeight.bold,
-                          color: (Colors.white)
-                        ),
+                        fontSize: 40,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
                     ),
                     const Text(
                       'Plugin for Tinder App',
                       style: TextStyle(
                         fontSize: 20,
-                        color: (Colors.white)
+                        color: Colors.white,
                       ),
                     ),
                     Padding(
@@ -46,7 +46,10 @@ class _LoginPageState extends State<LoginPage> {
                           onPressed: () {},
                           child: const Text(
                             'Enter with Facebook',
-                            style: TextStyle(fontSize: 18, color: (Colors.red)),
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Colors.red,
+                            ),
                           ),
                         ),
                       ),
